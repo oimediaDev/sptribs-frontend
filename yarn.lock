@@ -3813,29 +3813,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uppy/companion-client@npm:^2.0.4":
-  version: 2.0.5
-  resolution: "@uppy/companion-client@npm:2.0.5"
+"@uppy/companion-client@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "@uppy/companion-client@npm:2.2.2"
   dependencies:
-    "@uppy/utils": ^4.0.5
+    "@uppy/utils": ^4.1.2
     namespace-emitter: ^2.0.1
-  checksum: a68bbd4d7bb65b9eb2901ad409e4704662029e7b5f5c4d350cbbfeaf6e4995a0ff66cedfdaa31b1c46806398f446a196f33bab2877222feed0b10627cb539158
+  checksum: 07de3497d6a4a19c61f305b6f4b59dee108cf83edf8a3c7a0f3b96e33300f5adb6de0c88aa6b43d247e13a11f3f09f51fac2171b30fbdba42052b5813cbf21c0
   languageName: node
   linkType: hard
 
-"@uppy/core@npm:^2.1.4":
-  version: 2.1.5
-  resolution: "@uppy/core@npm:2.1.5"
+"@uppy/core@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "@uppy/core@npm:2.3.4"
   dependencies:
     "@transloadit/prettier-bytes": 0.0.7
-    "@uppy/store-default": ^2.0.3
-    "@uppy/utils": ^4.0.5
+    "@uppy/store-default": ^2.1.1
+    "@uppy/utils": ^4.1.3
     lodash.throttle: ^4.1.1
     mime-match: ^1.0.2
     namespace-emitter: ^2.0.1
     nanoid: ^3.1.25
     preact: ^10.5.13
-  checksum: 7c52d278f88462e5e1fdf1c4779e53ba4e610060a3e0c327664fe41f632c68247d463e86a7e2fab24617791b3808815ce2af29efcd5b87c3e99a847a25ee28e7
+  checksum: 91ce974efbae9da5b42cc697d2b7dbe91143c2c7695493fc06b232c6c0ecd07b2f4f4ab2ee02610e4bdea3c7ad27c82e2819e104e6e5fc8d366532c6906a4673
   languageName: node
   linkType: hard
 
@@ -3850,38 +3850,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uppy/file-input@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "@uppy/file-input@npm:2.0.5"
+"@uppy/file-input@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@uppy/file-input@npm:2.1.2"
   dependencies:
-    "@uppy/utils": ^4.0.4
+    "@uppy/utils": ^4.1.2
     preact: ^10.5.13
   peerDependencies:
-    "@uppy/core": ^2.1.3
-  checksum: dc496e04ff7b4bd33b7c82ec52df324ab9a4e4c5767e8e4aa948c79209ce8bb9e72be329d3daf1996d5e755fb3d16a8d20702572ec2b928806b00a79bc7459d5
+    "@uppy/core": ^2.3.3
+  checksum: d039e6fe528456293dc74ed6024b215a35e570cd3f82abcb7d7db68eb7b9ce128e701b4b5c9993a660284b45fdd364860b830929e77c39edc2cf7f0a562218b7
   languageName: node
   linkType: hard
 
-"@uppy/progress-bar@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "@uppy/progress-bar@npm:2.0.4"
+"@uppy/progress-bar@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@uppy/progress-bar@npm:2.1.2"
   dependencies:
-    "@uppy/utils": ^4.0.3
+    "@uppy/utils": ^4.1.2
     preact: ^10.5.13
   peerDependencies:
-    "@uppy/core": ^2.0.0
-  checksum: 580a2b7327965e3269474ec82c404d9b8eb06a3b243c88969f8231969da1fff0f2bafcd62639f0744dbee03cad08713491b1bbd7fb0f33d8ce8c3d8a8498d2aa
+    "@uppy/core": ^2.3.3
+  checksum: 88551d3b31865eb48806e23b46fef5aac03cc22d18e263dc75c66617e52a04b932a60a8417ab3917fb8fe92d26c28ac1faea17b630e3beae31d033fac5f57e43
   languageName: node
   linkType: hard
 
-"@uppy/store-default@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@uppy/store-default@npm:2.0.3"
-  checksum: aa6a3f80611ce6efed2963a197e3592cf00b1dedeb7e6c5aa7282e4ef857c8a7c1b747f8943cf969cc0fb12daf4907b62f1041a3df177bff01feb403f7dc777e
+"@uppy/store-default@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@uppy/store-default@npm:2.1.1"
+  checksum: 953a08ebd29a6dc7bdc759ad183eeebb8c32fa759e7cb20593fbdd4b2b2171771458085753767a1594e9f5a456cf2dadd40e8b474d355a5ac5bb2cb2aecd95fb
   languageName: node
   linkType: hard
 
-"@uppy/utils@npm:^4.0.3, @uppy/utils@npm:^4.0.4, @uppy/utils@npm:^4.0.5":
+"@uppy/utils@npm:^4.0.3":
   version: 4.0.5
   resolution: "@uppy/utils@npm:4.0.5"
   dependencies:
@@ -3890,16 +3890,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uppy/xhr-upload@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "@uppy/xhr-upload@npm:2.0.7"
+"@uppy/utils@npm:^4.1.2, @uppy/utils@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "@uppy/utils@npm:4.1.3"
   dependencies:
-    "@uppy/companion-client": ^2.0.4
-    "@uppy/utils": ^4.0.4
+    lodash.throttle: ^4.1.1
+  checksum: baca62dd77ee86799d4e5a9bb33f696d2736aaccd9495705d146844b8c86eb48ba676fae5762bc940f11f613bb25bc0f408d726ed457f860aacb106804d8a79f
+  languageName: node
+  linkType: hard
+
+"@uppy/xhr-upload@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@uppy/xhr-upload@npm:2.1.3"
+  dependencies:
+    "@uppy/companion-client": ^2.2.2
+    "@uppy/utils": ^4.1.2
     nanoid: ^3.1.25
   peerDependencies:
-    "@uppy/core": ^2.1.4
-  checksum: 714bb27348816249feea9545da299b56e150830ecd2d5e7015a061f412b349287aa2db875465949b4c58836377dbb7634d8e176a87c0126cb92b0a54ab408049
+    "@uppy/core": ^2.3.3
+  checksum: ae4de081632af7c119db795e65e6b004d9565a7134bb09f4a57a09acd05172942bb6089f3745177ad533340ef312fd5ea57af0f47be50329722c5c782d3693f1
   languageName: node
   linkType: hard
 
@@ -8653,7 +8662,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -8662,7 +8671,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.1.2#~builtin<compat/fsevents>":
   version: 2.1.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#~builtin<compat/fsevents>::version=2.1.3&hash=31d12a"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#~builtin<compat/fsevents>::version=2.1.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -14794,7 +14803,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.21.0
-  resolution: "resolve@patch:resolve@npm%3A1.21.0#~builtin<compat/resolve>::version=1.21.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.21.0#~builtin<compat/resolve>::version=1.21.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.0
     path-parse: ^1.0.7
@@ -14807,7 +14816,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -14820,7 +14829,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.18.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -15869,11 +15878,11 @@ __metadata:
     "@types/webpack-dev-middleware": ^5.0.2
     "@typescript-eslint/eslint-plugin": ^4.33.0
     "@typescript-eslint/parser": ^4.33.0
-    "@uppy/core": ^2.1.4
+    "@uppy/core": ^2.3.4
     "@uppy/drop-target": ^1.1.1
-    "@uppy/file-input": ^2.0.5
-    "@uppy/progress-bar": ^2.0.4
-    "@uppy/xhr-upload": ^2.0.7
+    "@uppy/file-input": ^2.1.2
+    "@uppy/progress-bar": ^2.1.2
+    "@uppy/xhr-upload": ^2.1.3
     "@wdio/sauce-service": ^7.16.13
     allure-commandline: ^2.22.1
     ansi-regex: ^4.1.1
@@ -17043,7 +17052,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=5d3a66"
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
